@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { HeaderModule } from './header/header.module';
+import { BodyModule } from './body/body.module';
 import { FooterModule } from './footer/footer.module';
 
 @NgModule({
@@ -12,6 +13,7 @@ import { FooterModule } from './footer/footer.module';
   imports: [
     BrowserModule,
     HeaderModule,
+    BodyModule,
     FooterModule
   ],
   providers: [],
